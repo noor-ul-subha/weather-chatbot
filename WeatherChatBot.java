@@ -1,11 +1,22 @@
+
 import java.io.*;
 import java.net.*;
 import java.util.*;
 
 public class WeatherChatBot {
+private static final String API_KEY = loadApiKey();
 
-    // Put your NEW OpenWeather API key here
-    private static final String API_KEY = "8fba55530f8c5d886fee40613991dc1d";
+private static String loadApiKey() {
+    Properties properties = new Properties();
+y
+    try (FileInputStream file = new FileInputStream("config.properties")) {
+        properties.load(file);
+        return properties.getProperty("API_KEY");
+    } catch (IOException e) {
+        System.out.println("API key could not be loaded.");
+        return "";
+    }
+}
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
