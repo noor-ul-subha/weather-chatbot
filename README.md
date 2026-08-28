@@ -8,12 +8,12 @@ Weather ChatBot lets users type everyday questions like *"is it cold in Lahore"*
 
 ## Features
 
-- 💬 **Natural Language Understanding** — Detects the city from phrases like "in \<city>" or "for \<city>", and understands intent (temperature, rain, cloudiness, humidity, wind, recommendations)
-- 🌦️ **Real-Time Weather Data** — Fetches live conditions via the OpenWeatherMap API
-- ⚖️ **City Comparison Mode** — Compares temperature, condition, humidity, and wind speed between two cities in a clean table
-- 🧭 **Smart Recommendations** — Suggests whether it's a good time for outdoor activities based on current temperature and conditions
-- 🔑 **Secure API Key Handling** — Key is loaded from a `config.properties` file at runtime, never hardcoded
-- 📟 **Simple Menu-Driven Interface** — Easy console navigation between chatbot mode and comparison mode
+ **Natural Language Understanding** — Detects the city from phrases like "in \<city>" or "for \<city>", and understands intent (temperature, rain, cloudiness, humidity, wind, recommendations)
+ **Real-Time Weather Data** — Fetches live conditions via the OpenWeatherMap API
+ **City Comparison Mode** — Compares temperature, condition, humidity, and wind speed between two cities in a clean table
+ **Smart Recommendations** — Suggests whether it's a good time for outdoor activities based on current temperature and conditions
+ **Secure API Key Handling** — Key is loaded from a `config.properties` file at runtime, never hardcoded
+ **Simple Menu-Driven Interface** — Easy console navigation between chatbot mode and comparison mode
 
 ## Tech Stack
 
